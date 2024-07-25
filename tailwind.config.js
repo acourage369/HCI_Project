@@ -1,0 +1,93 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ["./src/**/*.{js,jsx,ts,tsx}"],
+    theme: {
+      extend: {
+        colors: {
+          backgroundcolor: "#fff",
+          "coolgray-600": "#4b5563",
+          "coolgray-900": "#111827",
+          dimgray: {
+            "100": "#595959",
+            "200": "rgba(75, 85, 99, 0.7)",
+          },
+          darkorange: "#f08a01",
+          secondary: "#f0f9ff",
+          gainsboro: {
+            "100": "#e6e6e6",
+            "200": "#d6e0e6",
+          },
+          deepskyblue: "#0ea5ea",
+          "coolgray-300": "#d1d5db",
+          primary: "#0ea5e9",
+          steelblue: "#008ccf",
+          gray1: "rgba(255, 255, 255, 0)",
+          black: "#000",
+          "rose-500": "#f43f5e",
+          "lightblue-100": "#e0f2fe",
+          blueviolet: "#9747ff",
+          darkslategray: "#333",
+          hover: "#e9f0f5",
+          inactive: "#f3f3f7",
+          stroke: "#d5d4df",
+          darkgray: "#a8a8a8",
+          active: "#45539d",
+          "gray-200": "#e4e4e7",
+        },
+        spacing: {},
+        fontFamily: {
+          paragraph: "'Open Sans'",
+          "heading-5": "'Red Hat Display'",
+          lato: "Lato",
+          poppins: "Poppins",
+          manrope: "Manrope",
+          inter: "Inter",
+        },
+        borderRadius: {
+          "13xl": "32px",
+          xl: "20px",
+          "31xl": "50px",
+          "8xs": "5px",
+          "3xs": "10px",
+        },
+      },
+      fontSize: {
+        base: "16px",
+        "3xl": "22px",
+        lg: "18px",
+        "13xl": "32px",
+        "7xl": "26px",
+        lgi: "19px",
+        "77xl": "96px",
+        "29xl": "48px",
+        "10xl": "29px",
+        "19xl": "38px",
+        "4xl": "23px",
+        "11xl": "30px",
+        "5xl": "24px",
+        "9xl": "28px",
+        "21xl": "40px",
+        "45xl": "64px",
+        "32xl": "51px",
+        sm: "14px",
+        inherit: "inherit",
+      },
+      screens: {
+        mq1000: {
+          raw: "screen and (max-width: 1000px)",
+        },
+        mq975: {
+          raw: "screen and (max-width: 975px)",
+        },
+        mq725: {
+          raw: "screen and (max-width: 725px)",
+        },
+        mq450: {
+          raw: "screen and (max-width: 450px)",
+        },
+      },
+    },
+    corePlugins: {
+      preflight: false,
+    },
+  };
